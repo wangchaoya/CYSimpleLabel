@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		670883F52084488500C232E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 670883F42084488500C232E3 /* AppDelegate.m */; };
+		670883F82084488500C232E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 670883F72084488500C232E3 /* ViewController.m */; };
+		670883FB2084488500C232E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670883F92084488500C232E3 /* Main.storyboard */; };
+		670883FD2084488600C232E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670883FC2084488600C232E3 /* Assets.xcassets */; };
+		670884002084488600C232E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670883FE2084488600C232E3 /* LaunchScreen.storyboard */; };
+		670884032084488600C232E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 670884022084488600C232E3 /* main.m */; };
+		6708840D2084488600C232E3 /* simpleTextLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6708840C2084488600C232E3 /* simpleTextLabelTests.m */; };
+		670884182084488600C232E3 /* simpleTextLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 670884172084488600C232E3 /* simpleTextLabelUITests.m */; };
+		67088427208448DF00C232E3 /* CYSimpleTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67088426208448DF00C232E3 /* CYSimpleTextLabel.m */; };
+		678D118620D9FA3E006ED43D /* CYEmotionModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 678D118520D9FA3E006ED43D /* CYEmotionModelManager.m */; };
+		678D118920D9FA6D006ED43D /* CYEmotionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 678D118820D9FA6D006ED43D /* CYEmotionModel.m */; };
+		678D118B20D9FDA5006ED43D /* Emotions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 678D118A20D9FDA5006ED43D /* Emotions.plist */; };
+		678D118D20D9FDB2006ED43D /* Emotion.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 678D118C20D9FDB2006ED43D /* Emotion.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		670884092084488600C232E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 670883E82084488500C232E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 670883EF2084488500C232E3;
+			remoteInfo = simpleTextLabel;
+		};
+		670884142084488600C232E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 670883E82084488500C232E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 670883EF2084488500C232E3;
+			remoteInfo = simpleTextLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		670883F02084488500C232E3 /* simpleTextLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleTextLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		670883F32084488500C232E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		670883F42084488500C232E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		670883F62084488500C232E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		670883F72084488500C232E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		670883FA2084488500C232E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		670883FC2084488600C232E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		670883FF2084488600C232E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		670884012084488600C232E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670884022084488600C232E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		670884082084488600C232E3 /* simpleTextLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleTextLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6708840C2084488600C232E3 /* simpleTextLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleTextLabelTests.m; sourceTree = "<group>"; };
+		6708840E2084488600C232E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		670884132084488600C232E3 /* simpleTextLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleTextLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		670884172084488600C232E3 /* simpleTextLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleTextLabelUITests.m; sourceTree = "<group>"; };
+		670884192084488600C232E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67088425208448DE00C232E3 /* CYSimpleTextLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYSimpleTextLabel.h; sourceTree = "<group>"; };
+		67088426208448DF00C232E3 /* CYSimpleTextLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYSimpleTextLabel.m; sourceTree = "<group>"; };
+		678D118420D9FA3E006ED43D /* CYEmotionModelManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYEmotionModelManager.h; sourceTree = "<group>"; };
+		678D118520D9FA3E006ED43D /* CYEmotionModelManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYEmotionModelManager.m; sourceTree = "<group>"; };
+		678D118720D9FA6D006ED43D /* CYEmotionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYEmotionModel.h; sourceTree = "<group>"; };
+		678D118820D9FA6D006ED43D /* CYEmotionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYEmotionModel.m; sourceTree = "<group>"; };
+		678D118A20D9FDA5006ED43D /* Emotions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Emotions.plist; sourceTree = "<group>"; };
+		678D118C20D9FDB2006ED43D /* Emotion.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emotion.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		670883ED2084488500C232E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670884052084488600C232E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670884102084488600C232E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		670883E72084488500C232E3 = {
+			isa = PBXGroup;
+			children = (
+				670883F22084488500C232E3 /* simpleTextLabel */,
+				6708840B2084488600C232E3 /* simpleTextLabelTests */,
+				670884162084488600C232E3 /* simpleTextLabelUITests */,
+				670883F12084488500C232E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		670883F12084488500C232E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				670883F02084488500C232E3 /* simpleTextLabel.app */,
+				670884082084488600C232E3 /* simpleTextLabelTests.xctest */,
+				670884132084488600C232E3 /* simpleTextLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		670883F22084488500C232E3 /* simpleTextLabel */ = {
+			isa = PBXGroup;
+			children = (
+				670883F32084488500C232E3 /* AppDelegate.h */,
+				670883F42084488500C232E3 /* AppDelegate.m */,
+				670883F62084488500C232E3 /* ViewController.h */,
+				670883F72084488500C232E3 /* ViewController.m */,
+				67088425208448DE00C232E3 /* CYSimpleTextLabel.h */,
+				67088426208448DF00C232E3 /* CYSimpleTextLabel.m */,
+				678D118420D9FA3E006ED43D /* CYEmotionModelManager.h */,
+				678D118520D9FA3E006ED43D /* CYEmotionModelManager.m */,
+				678D118720D9FA6D006ED43D /* CYEmotionModel.h */,
+				678D118820D9FA6D006ED43D /* CYEmotionModel.m */,
+				670883F92084488500C232E3 /* Main.storyboard */,
+				670883FC2084488600C232E3 /* Assets.xcassets */,
+				670883FE2084488600C232E3 /* LaunchScreen.storyboard */,
+				670884012084488600C232E3 /* Info.plist */,
+				670884022084488600C232E3 /* main.m */,
+				678D118A20D9FDA5006ED43D /* Emotions.plist */,
+				678D118C20D9FDB2006ED43D /* Emotion.bundle */,
+			);
+			path = simpleTextLabel;
+			sourceTree = "<group>";
+		};
+		6708840B2084488600C232E3 /* simpleTextLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				6708840C2084488600C232E3 /* simpleTextLabelTests.m */,
+				6708840E2084488600C232E3 /* Info.plist */,
+			);
+			path = simpleTextLabelTests;
+			sourceTree = "<group>";
+		};
+		670884162084488600C232E3 /* simpleTextLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				670884172084488600C232E3 /* simpleTextLabelUITests.m */,
+				670884192084488600C232E3 /* Info.plist */,
+			);
+			path = simpleTextLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		670883EF2084488500C232E3 /* simpleTextLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6708841C2084488600C232E3 /* Build configuration list for PBXNativeTarget "simpleTextLabel" */;
+			buildPhases = (
+				670883EC2084488500C232E3 /* Sources */,
+				670883ED2084488500C232E3 /* Frameworks */,
+				670883EE2084488500C232E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simpleTextLabel;
+			productName = simpleTextLabel;
+			productReference = 670883F02084488500C232E3 /* simpleTextLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		670884072084488600C232E3 /* simpleTextLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6708841F2084488600C232E3 /* Build configuration list for PBXNativeTarget "simpleTextLabelTests" */;
+			buildPhases = (
+				670884042084488600C232E3 /* Sources */,
+				670884052084488600C232E3 /* Frameworks */,
+				670884062084488600C232E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6708840A2084488600C232E3 /* PBXTargetDependency */,
+			);
+			name = simpleTextLabelTests;
+			productName = simpleTextLabelTests;
+			productReference = 670884082084488600C232E3 /* simpleTextLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		670884122084488600C232E3 /* simpleTextLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670884222084488600C232E3 /* Build configuration list for PBXNativeTarget "simpleTextLabelUITests" */;
+			buildPhases = (
+				6708840F2084488600C232E3 /* Sources */,
+				670884102084488600C232E3 /* Frameworks */,
+				670884112084488600C232E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				670884152084488600C232E3 /* PBXTargetDependency */,
+			);
+			name = simpleTextLabelUITests;
+			productName = simpleTextLabelUITests;
+			productReference = 670884132084488600C232E3 /* simpleTextLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		670883E82084488500C232E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CY;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "王超亚";
+				TargetAttributes = {
+					670883EF2084488500C232E3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					670884072084488600C232E3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 670883EF2084488500C232E3;
+					};
+					670884122084488600C232E3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 670883EF2084488500C232E3;
+					};
+				};
+			};
+			buildConfigurationList = 670883EB2084488500C232E3 /* Build configuration list for PBXProject "simpleTextLabel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 670883E72084488500C232E3;
+			productRefGroup = 670883F12084488500C232E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				670883EF2084488500C232E3 /* simpleTextLabel */,
+				670884072084488600C232E3 /* simpleTextLabelTests */,
+				670884122084488600C232E3 /* simpleTextLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		670883EE2084488500C232E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670884002084488600C232E3 /* LaunchScreen.storyboard in Resources */,
+				670883FD2084488600C232E3 /* Assets.xcassets in Resources */,
+				678D118B20D9FDA5006ED43D /* Emotions.plist in Resources */,
+				670883FB2084488500C232E3 /* Main.storyboard in Resources */,
+				678D118D20D9FDB2006ED43D /* Emotion.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670884062084488600C232E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670884112084488600C232E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		670883EC2084488500C232E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678D118620D9FA3E006ED43D /* CYEmotionModelManager.m in Sources */,
+				670883F82084488500C232E3 /* ViewController.m in Sources */,
+				67088427208448DF00C232E3 /* CYSimpleTextLabel.m in Sources */,
+				670884032084488600C232E3 /* main.m in Sources */,
+				670883F52084488500C232E3 /* AppDelegate.m in Sources */,
+				678D118920D9FA6D006ED43D /* CYEmotionModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670884042084488600C232E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6708840D2084488600C232E3 /* simpleTextLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6708840F2084488600C232E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670884182084488600C232E3 /* simpleTextLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6708840A2084488600C232E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 670883EF2084488500C232E3 /* simpleTextLabel */;
+			targetProxy = 670884092084488600C232E3 /* PBXContainerItemProxy */;
+		};
+		670884152084488600C232E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 670883EF2084488500C232E3 /* simpleTextLabel */;
+			targetProxy = 670884142084488600C232E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		670883F92084488500C232E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670883FA2084488500C232E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		670883FE2084488600C232E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670883FF2084488600C232E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6708841A2084488600C232E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6708841B2084488600C232E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6708841D2084488600C232E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = simpleTextLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jq.com.simpleTextLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6708841E2084488600C232E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = simpleTextLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jq.com.simpleTextLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		670884202084488600C232E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = simpleTextLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jq.com.simpleTextLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simpleTextLabel.app/simpleTextLabel";
+			};
+			name = Debug;
+		};
+		670884212084488600C232E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = simpleTextLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jq.com.simpleTextLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simpleTextLabel.app/simpleTextLabel";
+			};
+			name = Release;
+		};
+		670884232084488600C232E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = simpleTextLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jq.com.simpleTextLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = simpleTextLabel;
+			};
+			name = Debug;
+		};
+		670884242084488600C232E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = simpleTextLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jq.com.simpleTextLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = simpleTextLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		670883EB2084488500C232E3 /* Build configuration list for PBXProject "simpleTextLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6708841A2084488600C232E3 /* Debug */,
+				6708841B2084488600C232E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6708841C2084488600C232E3 /* Build configuration list for PBXNativeTarget "simpleTextLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6708841D2084488600C232E3 /* Debug */,
+				6708841E2084488600C232E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6708841F2084488600C232E3 /* Build configuration list for PBXNativeTarget "simpleTextLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670884202084488600C232E3 /* Debug */,
+				670884212084488600C232E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		670884222084488600C232E3 /* Build configuration list for PBXNativeTarget "simpleTextLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670884232084488600C232E3 /* Debug */,
+				670884242084488600C232E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 670883E82084488500C232E3 /* Project object */;
+}
